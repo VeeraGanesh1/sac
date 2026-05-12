@@ -8,7 +8,7 @@ include 'test.php'; // DB connection
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Accommodation Payment | Alumni Meet</title>
+    <title>Payment Details| Alumni Meet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* === Background === */
@@ -139,7 +139,7 @@ include 'test.php'; // DB connection
                 <img class="instiLogo" src="./../img/palJubLogo.png" alt="">
             </div>
         </div>
-        <h2 class="color-black">Accommodation Payment</h2>
+        <h2 class="color-black">Payment Details</h2>
 
         <?php if (isset($error)): ?>
             <div class="alert alert-danger py-2"><?= htmlspecialchars($error) ?></div>
